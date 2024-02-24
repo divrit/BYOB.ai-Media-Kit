@@ -1,0 +1,40 @@
+[
+  {
+    "monthYear": "",
+    "monthNumber": "",
+    "tables": [
+      {
+        "tableName": "earnings",
+        "columns": ["date", "name", "amount"],
+        "rows": [
+          {
+            "date": "",
+            "name": "",
+            "amount": ""
+          }
+        ]
+      },
+      {
+        "tableName": "expenditure",
+        "columns": ["date", "name", "amount"],
+        "rows": [
+          {
+            "date": "",
+            "name": "",
+            "amount": ""
+          }
+        ]
+      }
+    ],
+    "calculations": [
+      {
+        "name": "Tiktok",
+        "value": "1000"
+      },
+      {
+        "name": "Youtube",
+        "value": "1000"
+      }
+    ]
+  }
+]

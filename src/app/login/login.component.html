@@ -1,0 +1,31 @@
+<div class="login-container">
+    <img class="film" src="../../assets/ca.png" alt="" />
+    <div class="logo">Creator's academy</div>
+    <div class="desc">
+      At Creators Academy, we're dedicated to nurturing the next generation of digital creators. Our comprehensive programs provide aspiring artists, designers, writers, and entrepreneurs with the skills, resources, and support they need to bring their visions to life. Whether you're passionate about graphic design, content creation, coding, or storytelling, our experienced instructors and industry experts are here to guide you every step of the way. Join us and unleash your creative potential today!
+    </div>
+    <div class="login-form">
+      <div class="form-group">
+        <label for="uname">Username</label>
+        <input
+          type="text"
+          name="uname"
+          class="form-control"
+          [(ngModel)]="username"
+        />
+      </div>
+      <div class="form-group">
+        <label for="pword">Password</label>
+        <input
+          type="password"
+          name="pword"
+          class="form-control"
+         [(ngModel)]="password"
+        />
+      </div>
+      <div class="btn-container">
+        <div class="error">{{ errorMsg }}</div>
+        <button class="btn " (click)="login()">Login</button>
+      </div>
+    </div>
+  </div>
